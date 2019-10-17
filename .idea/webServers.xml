@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0a6d9fd7-3fbb-4283-8a3d-0454128341a5" name="pi" url="http://192.168.123.33">
+        <fileTransfer host="192.168.123.33" port="22" rootFolder="/home/pi/Projects/merkle" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
